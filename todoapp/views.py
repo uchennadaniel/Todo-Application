@@ -4,25 +4,6 @@ from .models import Task
 from .forms import TodoForm
 #from django.views.generic import ListView 
 
-# Create your views here.
-"""def add(request):
-  # This code snippet is handling form submission in a Django view. Here's a breakdown of what it
-  # does:
-  if request.method == 'POST':
-    name = request.POST.get('name','')
-    priority = request.POST.get('priority','')
-    task = Task(name=name, priority=priority)
-    task.save()
-    return redirect('/')
-    task.clear()
-  return render(request,'html/add.html')"""
-  
-"""class TaskListView(ListView):
-    model = Task
-    template_name = 'html/index.html'  # Specify your template name here
-    context_object_name = 'task_list'  # This will be the variable name in the template
-  """
-
 def index(request):
   task_list = Task.objects.all()
   if request.method == 'POST':
