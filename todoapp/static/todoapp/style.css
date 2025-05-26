@@ -1,0 +1,63 @@
+.banner {
+  background-color: darkslategray;;
+  width: 100%;
+  height: 20rem;
+  margin-bottom: 5rem;
+}
+.banner-text {
+  left: 50%;
+  top: 30%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5rem;  
+}
+.container_update{
+  box-shadow:
+  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  text-align: center;
+  margin-top: 0rem;
+  background-color: darkslategray;
+  padding: 5rem;
+}
+.head-writting{
+  color: white;
+}
+.last {
+  margin-bottom: 3rem;
+}
+.white {
+  color: white;
+  width: 100%;
+}
+.shadow input{
+  box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,   rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.btn-submit{
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+.second-heading,.first-heading {
+  font-style: italic;
+}
+.banner-text, .delete{
+  position: relative;
+  padding-top: 15rem;
+  text-align: center;
+}
+.delete-btn{
+  border-radius: 3rem;
+  background-color: red;
+  border-radius:3;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+}

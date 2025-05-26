@@ -1,0 +1,19 @@
+
+{% extends 'html/base.html' %}
+
+{% block body %}
+<!--<div class="container-background">-->
+  
+  <div class=" container_update">
+    <h1 class="head-writting">Do you want to make some change?</h1>
+      <h3 class="head-writting last">Edit and Update your Todo-List here</h3>
+      <br>
+    <form class="shadow"method="POST">
+    {% csrf_token %}
+      <h3><b class="white"> {{form.as_p}}</b></h3>
+      <h3> <button class= "btn-submit" type="submit">Update Task</button></h3>
+    </form>
+  </div>
+
+
+{%endblock%}

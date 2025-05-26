@@ -1,0 +1,17 @@
+{% extends 'html/base.html' %}
+{% block body %}
+  <form method= "POST">
+    {%csrf_token%}
+    <div class="banner delete-page">
+      <div class="banner-text delete">
+        <h1 class="first-heading" >Are you sure this task is done and you do want to delete it?</h1>
+        
+        <h3 class="second-heading">Click the button below to delete</h3>
+        <button class="delete-btn" type="submit"><b>Confirm/Delete</b></button> 
+        </div>
+      </div>
+    </div>
+    
+  </form>
+
+{%endblock%}
